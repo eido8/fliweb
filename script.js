@@ -5,9 +5,14 @@ window.onload = function() {
         }, 2100
     );
     
-    document.querySelector(".myVideo").style.opacity = "1";
+    setTimeout(
+        function() {
+            document.querySelector(".myVideo").style.opacity = "1";
+        }, 2100
+    );
+
     document.querySelector(".h1-1").style.opacity = "1";
-    
+
     setTimeout(
         function() {
             document.querySelector(".h1-2").style.opacity = "1";
