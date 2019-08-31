@@ -23,7 +23,7 @@ nav {
 	min-height: 8vh;
 	background-color: black;
 	font-family: 'Quicksand', sans-serif;
-	transition: 1s;
+	transition: 0.7s;
 	position: sticky;
 }
 
@@ -46,7 +46,7 @@ nav:hover > .burger div {
 	opacity: 0;
 	letter-spacing: 3px;
 	font-size: 22px;
-	transition: 2s;	
+	transition: 0.7s;	
 
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
@@ -111,7 +111,7 @@ nav:hover > .burger div {
 	align-items: center;
 	width: 8.5%;
 	transform: translateX(0%);
-	transition: 1s;
+	transition: 0.7s;
 	z-index: 2;
 	transition-timing-function: ease-in-out;
 }
